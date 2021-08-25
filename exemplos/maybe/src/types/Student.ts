@@ -1,10 +1,6 @@
-import type Language from './Language';
+import type Language from "./Language";
 
-/**
- * Objeto com os dados da pessoa estudante na aplicação.
- *
- * A maior parte das pessoas estudantes ainda não definiu seu idioma.
- */
+/** Objeto com os dados da pessoa estudante autenticada na aplicação. */
 type Student = {
   id: string;
   // ...
