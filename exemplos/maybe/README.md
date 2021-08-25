@@ -16,4 +16,10 @@ Hipotéticamente estamos trabalhando numa aplicação que disponibiliza cursos d
 
   ![](./images/School.png)
 
+4. Existe uma função para obter os dados da pessoa estudante autenticada na aplicação, porém ela pode retornar `null` se não houver pessoa autenticada.
 
+  ![](./images/getCurrentStudent.png)
+
+5. Existe também uma função para obter os dados da escola, porém quando não houver escola no contexto acessado um erro é lançado.
+
+  ![](./images/getCurrentSchool.png)
